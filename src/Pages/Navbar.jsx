@@ -34,7 +34,8 @@ const Navbar = () => {
               whileHover={{ scale: 1.1, color: "#FACC15" }}
               className="cursor-pointer transition"
             >
-              <a href={`/${item.toLowerCase()}`}>{item}</a>
+                <a href="#"></a>
+              {/* <a href={`/${item.toLowerCase()}`}>{item}</a> */}
             </motion.li>
           ))}
         </ul>
