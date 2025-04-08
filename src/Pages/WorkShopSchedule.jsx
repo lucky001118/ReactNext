@@ -91,7 +91,7 @@ const schedule = [
 
 const WorkShopSchedule = () => {
   return (
-    <div className="bg-gray-100 py-10 px-4 md:px-10">
+    <div className="bg-gray-100 py-10 mt-10 px-4 md:px-10">
       <motion.h2
         initial={{ opacity: 0, y: -20 }}
         whileInView={{ opacity: 1, y: 0 }}

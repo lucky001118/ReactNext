@@ -17,7 +17,7 @@ const jsTopics = [
 
 const JavaScript = () => {
   return (
-    <div className=" bg-gray-900 text-white py-10 px-4 md:px-20">
+    <div className=" bg-gray-900 text-white py-10 mt-10 px-4 md:px-20">
       <motion.h1
         initial={{ opacity: 0, y: -40 }}
         whileInView={{ opacity: 1, y: 0 }}

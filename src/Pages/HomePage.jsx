@@ -1,6 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
-
+import { Link,Outlet } from "react-router-dom";
 const fadeIn = {
   hidden: { opacity: 0, y: 50 },
   visible: (i = 1) => ({
@@ -16,7 +16,7 @@ const fadeIn = {
 
 const HomePage = () => {
   return (
-    <div className="min-h-screen flex flex-col bg-white">
+    <div className="min-h-screen flex flex-col bg-white mt-10">
       {/* Hero Section */}
       <motion.header
         initial="hidden"
@@ -96,15 +96,14 @@ const HomePage = () => {
         <p className="mb-4 text-gray-700">
           Limited seats available. Register before <strong>April 6</strong>.
         </p>
-        <motion.a
+        <Link to="/schedule">
+        <motion.p
           whileHover={{ scale: 1.05 }}
-          href="https://your-registration-form-link"
-          target="_blank"
-          rel="noopener noreferrer"
           className="inline-block bg-blue-600 text-white px-6 py-3 rounded-xl font-semibold hover:bg-blue-500 transition"
         >
-          Register for ₹50
-        </motion.a>
+          Schedules
+        </motion.p> </Link>
+        <Outlet></Outlet>
       </motion.section>
     </div>
   );
