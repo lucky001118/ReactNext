@@ -105,6 +105,29 @@ const HomePage = () => {
         </motion.p> </Link>
         <Outlet></Outlet>
       </motion.section>
+
+{/* credental */}
+      <motion.section
+        id="register"
+        initial="hidden"
+        whileInView="visible"
+        viewport={{ once: true }}
+        variants={fadeIn}
+        className="py-16 px-6 bg-blue-50 text-center"
+      >
+        <h2 className="text-3xl font-semibold mb-6">🎯 Top 5 Credential Score.</h2>
+        <p className="mb-4 text-gray-700">
+          Check the credential score of top 5 student that you have score during the quize <strong>quize round</strong>.
+        </p>
+        <Link to="/credential">
+        <motion.p
+          whileHover={{ scale: 1.05 }}
+          className="inline-block bg-blue-600 text-white px-6 py-3 rounded-xl font-semibold hover:bg-blue-500 transition"
+        >
+          Check Credential
+        </motion.p> </Link>
+        <Outlet></Outlet>
+      </motion.section>
     </div>
   );
 };

@@ -25,11 +25,11 @@ const Navbar = () => {
           <ul className="flex space-x-6 text-sm uppercase font-semibold">
             <motion.li whileHover={{ scale: 1.1 }}><Link to="/">Home</Link></motion.li>
             <motion.li whileHover={{ scale: 1.1 }}><Link to="/javaScript">JavaScript</Link></motion.li>
-            <motion.li whileHover={{ scale: 1.1 }}><a href="/react">React</a></motion.li>
+            <motion.li whileHover={{ scale: 1.1 }}><Link to="/react">React</Link></motion.li>
             <motion.li whileHover={{ scale: 1.1 }}><Link to="/mySql">MySQL</Link></motion.li>
-            <motion.li whileHover={{ scale: 1.1 }}><a href="/firebase">FireBase</a></motion.li>
-            <motion.li whileHover={{ scale: 1.1 }}><a href="/next">Next</a></motion.li>
-            <motion.li whileHover={{ scale: 1.1 }}><a href="/git">Git</a></motion.li>
+            <motion.li whileHover={{ scale: 1.1 }}><Link to="/firebase">FireBase</Link></motion.li>
+            <motion.li whileHover={{ scale: 1.1 }}><Link to="/next">Next</Link></motion.li>
+            <motion.li whileHover={{ scale: 1.1 }}><Link to="/git">Git</Link></motion.li>
           </ul>
         </div>
 
