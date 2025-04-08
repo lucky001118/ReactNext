@@ -49,13 +49,13 @@ const Navbar = () => {
           transition={{ duration: 0.3 }}
           className="flex flex-col items-center bg-gray-800 py-6 space-y-4 text-sm md:hidden"
         >
-          <li><a href="/" onClick={toggleMenu}>Home</a></li>
-          <li><a href="/javascript" onClick={toggleMenu}>JavaScript</a></li>
-          <li><a href="/react" onClick={toggleMenu}>React</a></li>
-          <li><a href="/mysql" onClick={toggleMenu}>MySQL</a></li>
-          <li><a href="/firebase" onClick={toggleMenu}>FireBase</a></li>
-          <li><a href="/next" onClick={toggleMenu}>Next</a></li>
-          <li><a href="/git" onClick={toggleMenu}>Git</a></li>
+          <li><Link to="/">Home</Link></li>
+          <li><Link to="/javaScript">JavaScript</Link></li>
+          <li><Link to="/react">React</Link></li>
+          <li><Link to="/mySql">MySQL</Link></li>
+          <li><Link to="/firebase">FireBase</Link></li>
+          <li><Link to="/next">Next</Link></li>
+          <li><Link to="/git">Git</Link></li>
         </motion.ul>
       )}
     </header>
