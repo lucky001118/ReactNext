@@ -48,7 +48,7 @@ const HomePage = () => {
       >
         <h2 className="text-3xl font-semibold mb-6">📅 Workshop Schedule</h2>
         <p className="text-lg text-gray-700 mb-4">
-          April 7, 9, 11, and 12, 2025 | Time: 4:00 PM - 6:00 PM
+          April 8, 9, 11, and 12, 2025 | Time: 10:00 AM - 4:00 PM
         </p>
         <p className="text-md text-gray-600">
           Interactive sessions with quizzes, prizes, and certification!
