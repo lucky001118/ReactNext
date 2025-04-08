@@ -4,8 +4,32 @@ import { HiOutlineMenu, HiX } from 'react-icons/hi';
 import { Link } from 'react-router-dom';
 
 const Navbar = () => {
+<<<<<<< HEAD
   const [menuOpen, setMenuOpen] = useState(false);
   const toggleMenu = () => setMenuOpen(!menuOpen);
+=======
+  return (
+    <motion.nav
+      initial="hidden"
+      animate="visible"
+      variants={fadeIn}
+      className="bg-blue-900 text-white px-6 py-4 shadow-md sticky top-0 z-50"
+    >
+      <div className="max-w-7xl mx-auto flex justify-between items-center">
+        {/* Center menu */}
+        <ul className="flex-1 flex justify-center gap-6 text-sm md:text-base">
+          {navItems.map((item, index) => (
+            <motion.li
+              key={index}
+              whileHover={{ scale: 1.1, color: "#FACC15" }}
+              className="cursor-pointer transition"
+            >
+                <a href="#">{item}</a>
+              {/* <a href={`/${item.toLowerCase()}`}>{item}</a> */}
+            </motion.li>
+          ))}
+        </ul>
+>>>>>>> 7bd41743fa123220becae0373f462f969a4c0a12
 
   return (
     <header className="bg-blue-900 text-white fixed top-0 left-0 w-full z-50 shadow-md">
