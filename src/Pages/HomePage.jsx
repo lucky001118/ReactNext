@@ -115,7 +115,7 @@ const HomePage = () => {
         variants={fadeIn}
         className="py-16 px-6 bg-blue-50 text-center"
       >
-        <h2 className="text-3xl font-semibold mb-6">🎯 Top 5 Credential Score.</h2>
+        <h2 className="text-3xl font-semibold mb-6">🎯 Top Credential Score.</h2>
         <p className="mb-4 text-gray-700">
           Check the credential score of top 5 student that you have score during the quize <strong>quize round</strong>.
         </p>

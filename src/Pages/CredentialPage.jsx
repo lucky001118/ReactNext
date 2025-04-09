@@ -3,11 +3,12 @@ import { motion } from "framer-motion";
 import { FaMedal } from "react-icons/fa";
 
 const topStudents = [
-  { name: "Student 1", score: 0, semester: "th", rank: 1 },
-  { name: "Student 2", score: 0, semester: "th", rank: 2 },
-  { name: "Student 3", score: 0, semester: "th", rank: 3 },
-  { name: "Student 4", score: 0, semester: "th", rank: 4 },
-  { name: "Student 5", score: 0, semester: "th", rank: 5 },
+  { name: "Shreyas Anand Baksi", score: 3, semester: "4th", rank: 1 },
+  { name: "Ankush Mishra", score: 2, semester: "2nd", rank: 2 },
+  { name: "Aparna Parmar", score: 2, semester: "2nd", rank: 3 },
+  { name: "Aditya Singh", score: 2, semester: "4th", rank: 4 },
+  { name: "Sanjay Sahu", score: 2, semester: "6th", rank: 5 },
+  { name: "Prem Dilliwar", score: 2, semester: "2nd", rank: 6 }
 ];
 
 const CredentialPage = () => {
@@ -19,7 +20,7 @@ const CredentialPage = () => {
         transition={{ duration: 0.6 }}
         className="text-4xl font-bold text-center text-yellow-700 mb-12"
       >
-        🏅 Top 5 Credentials – ReactNext Bootcamp
+        🏅 Top Credentials – ReactNext Bootcamp
       </motion.h1>
 
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">

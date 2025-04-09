@@ -56,7 +56,7 @@ const MySQLPage = () => {
         className="flex justify-center mt-12"
       >
         <a
-          href="/downloads/MySQL_Handwritten_Notes.pdf"
+          href="/MySQL.pdf"
           download
           className="flex items-center gap-3 bg-yellow-400 text-black px-6 py-3 rounded-full font-semibold hover:bg-yellow-500 transition-all duration-300"
         >
