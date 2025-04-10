@@ -3,12 +3,27 @@ import { motion } from "framer-motion";
 import { FaMedal } from "react-icons/fa";
 
 const topStudents = [
-  { name: "Shreyas Anand Baksi", score: 3, semester: "4th", rank: 1 },
-  { name: "Ankush Mishra", score: 2, semester: "2nd", rank: 2 },
-  { name: "Aparna Parmar", score: 2, semester: "2nd", rank: 3 },
-  { name: "Aditya Singh", score: 2, semester: "4th", rank: 4 },
-  { name: "Sanjay Sahu", score: 2, semester: "6th", rank: 5 },
-  { name: "Prem Dilliwar", score: 2, semester: "2nd", rank: 6 }
+  { name: "Sanjay Sahu", score: 8, semester: "6th", rank: 1 },
+  { name: "Aparna Parmar", score: 7, semester: "2nd", rank: 2 },
+  { name: "Ankush Mishra", score: 5, semester: "2nd", rank: 3 },
+  { name: "Aditya Singh", score: 4, semester: "4th", rank: 4 },
+  { name: "Mitul Meshram", score: 4, semester: "4th", rank: 4 },
+  { name: "Nimi Gautam", score: 4, semester: "4th", rank: 4 },
+  { name: "Nishkarsh Verma", score: 4, semester: "4th", rank: 4 },
+  { name: "Neelam Sahu", score: 3, semester: "2nd", rank: 5 },
+  { name: "Shubham Vishwakarma", score: 3, semester: "2nd", rank: 5 },
+  { name: "Anisha Priya", score: 3, semester: "4th", rank: 5 },
+  { name: "Shreyas Anand Bakshi", score: 3, semester: "4th", rank: 5 },
+  { name: "Shail Sahu", score: 2, semester: "2nd", rank: 6 },
+  { name: "Omkar Dixit", score: 2, semester: "4th", rank: 6 },
+  { name: "Prem Dilliwar", score: 2, semester: "2nd", rank: 6 },
+  { name: "Nisha Gautam", score: 1, semester: "4th", rank: 7 },
+  { name: "Kunal Kumar", score: 1, semester: "2nd", rank: 7 },
+  { name: "Rahul Desai", score: 1, semester: "2nd", rank: 7 },
+  { name: "Sumit Bhoge", score: 1, semester: "2nd", rank: 7 },
+  { name: "Humanshu Mandavi", score: 1, semester: "4th", rank: 7 },
+  { name: "Manas Gupta", score: 1, semester: "4th", rank: 7 },
+  { name: "Nitesh Sahu", score: 1, semester: "4th", rank: 7 },
 ];
 
 const CredentialPage = () => {

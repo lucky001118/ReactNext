@@ -41,7 +41,7 @@ const Footer = () => {
           </motion.a>
           <motion.a
             whileHover={{ scale: 1.2, rotate: 3 }}
-            href="https://linkedin.com/in/your_linkedin"
+            href="https://www.linkedin.com/in/lucky-manikpuri-49804927b/"
             target="_blank"
             rel="noopener noreferrer"
             className="hover:text-blue-400"

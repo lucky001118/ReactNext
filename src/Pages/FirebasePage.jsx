@@ -1,6 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { FaFire, FaUserShield, FaCloudUploadAlt } from "react-icons/fa";
+import { FaDownload } from 'react-icons/fa';
 
 const firebaseTopics = [
   {
@@ -58,6 +59,16 @@ const FirebasePage = () => {
           </motion.div>
         ))}
       </div>
+
+      <div className="flex justify-center mt-12">
+              <a
+                href="/firebase_ppt.pdf"
+                download
+                className="bg-yellow-400 hover:bg-yellow-500 text-black px-6 py-3 rounded-full font-semibold flex items-center gap-2 transition"
+              >
+                <FaDownload /> Download Notes
+              </a>
+            </div>
     </section>
   );
 };
