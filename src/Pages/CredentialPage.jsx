@@ -15,6 +15,7 @@ const topStudents = [
   { name: "Anisha Priya", score: 3, semester: "4th", rank: 5 },
   { name: "Shreyas Anand Bakshi", score: 3, semester: "4th", rank: 5 },
   { name: "Shail Sahu", score: 2, semester: "2nd", rank: 6 },
+  { name: "Ekta Sahu", score: 2, semester: "6th", rank: 6 },
   { name: "Omkar Dixit", score: 2, semester: "4th", rank: 6 },
   { name: "Prem Dilliwar", score: 2, semester: "2nd", rank: 6 },
   { name: "Nisha Gautam", score: 1, semester: "4th", rank: 7 },
