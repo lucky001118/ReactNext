@@ -1,6 +1,21 @@
 import React from "react";
-import { motion } from "framer-motion";
+// import { motion } from "framer-motion";
 import { FaMedal } from "react-icons/fa";
+import { motion } from "framer-motion";
+import { Link,Outlet } from "react-router-dom";
+
+const fadeIn = {
+  hidden: { opacity: 0, y: 50 },
+  visible: (i = 1) => ({
+    opacity: 1,
+    y: 0,
+    transition: {
+      delay: i * 0.2,
+      duration: 0.6,
+      ease: "easeOut",
+    },
+  }),
+};
 
 const topStudents = [
   { name: "Sanjay Sahu", score: 12.25, semester: "6th", rank: 1 },
@@ -75,6 +90,30 @@ const CredentialPage = () => {
           </motion.div>
         ))}
       </div>
+
+
+      <motion.section
+        id="register"
+        initial="hidden"
+        whileInView="visible"
+        viewport={{ once: true }}
+        variants={fadeIn}
+        className="py-16 px-6 mt-10 bg-blue-50 text-center"
+      >
+        <h2 className="text-3xl font-semibold mb-6">🎯 Top Credential Score.</h2>
+        <p className="mb-4 text-gray-700">
+          Check the Excellence Holders of credential score that you have score during the quize <strong>quize round and project phase</strong>.
+        </p>
+        <Link to="/winners">
+        <motion.p
+          whileHover={{ scale: 1.05 }}
+          className="inline-block bg-blue-600 text-white px-6 py-3 rounded-xl font-semibold hover:bg-blue-500 transition"
+        >
+          Excellence Holders
+          </motion.p>  </Link>
+        <Outlet></Outlet>
+      </motion.section>
+
     </section>
   );
 };

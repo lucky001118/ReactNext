@@ -10,6 +10,7 @@ import GitPage from "./Pages/GitPage"
 import FirebasePage from "./Pages/FirebasePage"
 import NextPage from "./Pages/NextPage"
 import CredentialPage from "./Pages/CredentialPage"
+import ExcellenceCertificatePage from "./Pages/ExcellenceCertificatePage"
 function App() {
 
   return (
@@ -22,6 +23,7 @@ function App() {
         <Route path="/javaScript" element={<JavaScript />} />
         <Route path="/schedule" element={<WorkShopSchedule/>} />
         <Route path="/credential" element={<CredentialPage/>} />
+        <Route path="/winners" element={<ExcellenceCertificatePage/>} />
         <Route path="/mySql" element={<MySQLPage/>} />
         <Route path="/react" element={<ReactPage/>} />
         <Route path="/git" element={<GitPage/>} />

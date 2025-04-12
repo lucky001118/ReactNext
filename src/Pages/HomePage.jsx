@@ -117,7 +117,7 @@ const HomePage = () => {
       >
         <h2 className="text-3xl font-semibold mb-6">🎯 Top Credential Score.</h2>
         <p className="mb-4 text-gray-700">
-          Check the credential score of top 5 student that you have score during the quize <strong>quize round</strong>.
+          Check the credential score of top students that you have score during the quize <strong>quize round</strong>.
         </p>
         <Link to="/credential">
         <motion.p
